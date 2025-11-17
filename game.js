@@ -15,8 +15,13 @@ function getComputerChoice() {
 }
 
 /*
-  window.prompt() instructs the browser to display a dialog box that prompts the user for input.
-  The prompt() method returns the input value if the user clicks "ok", otherwise it returns null.
+  window.prompt() instructs the browser to display a dialog box that 
+  prompts the user for input. The prompt() method returns the input value 
+  if the user clicks "ok", otherwise it returns null.
+  Syntax:
+    prompt()
+    prompt(message)
+    prompt(message, defaultValue)
 */
 function getHumanChoice() {
   let message = prompt("Select Rock, Paper, or Scissors");
