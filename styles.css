@@ -1,0 +1,15 @@
+
+.butt {
+  margin-top: 5%;
+  display: flex;
+  justify-content: center;
+}
+
+button {
+  margin: 2%
+}
+
+#score {
+  text-align: center;
+  white-space: pre;
+}
